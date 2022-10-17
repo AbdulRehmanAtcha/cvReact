@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(150, 145, 145);
+}
+
+.cv {
+  height: 500px;
+  width: 700px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+/* .cv h2 {
+  display: inline-block;
+} */
+.name {
+  display: flex;
+  font-size: 35px;
+}
+.first {
+  color: rgb(100, 98, 98);
+}
+.last {
+  color: rgb(0, 0, 0);
+}
+
+.info {
+  display: flex;
+  column-gap: 20px;
+  font-size: 16px;
+}
+.email,
+.address {
+  display: flex;
+}
+
+.heading {
+  color: blue;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.matric,
+.inter,
+.uni {
+  display: flex;
+  justify-content: space-around;
+}
+.matric-name,
+.matric-year,
+.matric-grade,
+.inter-name,
+.inter-year,
+.inter-grade,
+.uni-name,
+.uni-year,
+.uni-grade {
+  height: 30px;
+  width: 170px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.skills h2 {
+  padding-left: 30px;
+  color: rgb(100, 98, 98);
+}
